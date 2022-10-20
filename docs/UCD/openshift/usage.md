@@ -12,7 +12,7 @@ OpenShift for IBM UrbanCode Deploy - Usage
 
 Use the Create New-App step to generate OpenShift Container Platform objects that build, deploy, and run the application being created. For more information, see the [Openshift](https://docs.openshift.com/container-platform/3.11/dev_guide/application_lifecycle/new_app.html) documentation.
 
-The following example demonstrates using the step to create an application using a remote git repository. While this demonstration uses a generic process, a component process part of a component can be created using the [Openshift source configuration](https://www.urbancode.com/plugin/openshift/) plug-in. The following image shows the plug-in step properties where we specify the source.
+The following example demonstrates using the step to create an application using a remote git repository. While this demonstration uses a generic process, a component process part of a component can be created using the [Openshift source configuration](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/openshift/) plug-in. The following image shows the plug-in step properties where we specify the source.
 
 ![](openshift_properties.jpg?resize=380%2C660)
 
@@ -41,4 +41,4 @@ The Set Env step updates environment variables on a pod template or a build conf
 
 |Back to ...||Latest Version|OpenShift for IBM UrbanCode Deploy ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[18.1108805](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/openshift-18.1108805.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[19.1140931](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/openshift/openshift-19.1140931.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

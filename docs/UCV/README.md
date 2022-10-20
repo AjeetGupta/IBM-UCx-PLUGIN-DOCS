@@ -14,6 +14,7 @@
 	- [CollabNet VersionOne](#collabnet-versionone)
 	- [Cucumber](#cucumber)
 	- [Digital.ai Agility](#digitalai-agility)
+	- [Fortify SSC](#fortify-ssc)
 	- [GitHub](#github)
 	- [GitLab](#gitlab)
 	- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
@@ -24,6 +25,7 @@
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
 	- [JUnit](#junit)
 	- [Jira](#jira)
+	- [Jenkins For Urbancode-Velocity](#urbancode-velocity)
 	- [Rally](#rally)
 	- [Rational Test Automation Server](#rational-test-automation-server)
 	- [Selenium](#selenium)
@@ -116,6 +118,16 @@ Digital.ai.Agility is Enterprise level planning and tracking platform to build a
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-agility/README.md)|[1.0.20](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.20.tar.zip)|
 
+## Fortify SSC
+
+Fortify Software security center (SSC) enables teams with the application security program automation capabilities. It enables to manage, develop, and provide security for the software protection activities.
+
+---
+
+|Back to ...||Fortify SSC |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-fortify-ssc/README.md)|[1.0.19](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-fortify-ssc/ucv-ext-fortify-ssc%3A1.0.19.tar.7z.001)|
+
 ## GitHub
 
 GitHub is a Git repository hosting service. It provides tools to manage artifacts on the Git repository. The GitHub  plug-in imports Git artifacts based on queries for issues, commits and pull requests.
@@ -134,7 +146,7 @@ GitLab provides management of git repositories. The GitLab plug-in imports issue
 
 |Back to ...||GitLab |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-gitlab/README.md)|[2.0.50](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab-2.0.50.tar.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-gitlab/README.md)|[2.0.58](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-gitlab/ucv-ext-gitlab:2.1.58.tar.7z.001)|
 
 ## HCL AppScan Enterprise (ASE)
 
@@ -154,7 +166,7 @@ HCL AppScan on Cloud (ASoC) is an application security offering that allows you 
 
 |Back to ...||HCL AppScan on Cloud (ASoC) |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-asoc/README.md)|[3.0.11](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.11.tar)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-asoc/README.md)|[3.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-asoc/ucv-ext-asoc:3.0.12.tar.7z.001)|
 
 ## HCL OneTest
 
@@ -215,6 +227,17 @@ Jira is an issue tracking product, developed by Atlassian. The Jira plug-in prov
 |Back to ...||Jira |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.2.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.1.tar.zip)|
+
+## urbancode-velocity
+
+With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment plan in UrbanCode Velocity. You can run jobs that will trigger the creation of a version in a Velocity Pipeline as well as persist properties on that version that can be used as input properties in other Jenkins builds. This plugin will pass along important data from Git to the Velocity Pipeline.
+
+---
+
+|Back to ...||urbancode-velocity |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[3.0.0](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.0/urbancode-velocity-3.0.0.hpi)|
+
 
 ## Rally
 

@@ -20,13 +20,21 @@ This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
 
 ### Installation
 
-No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing plug-ins in UrbanCode Deploy").
+No special steps are required for installation. See [Installing plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing plug-ins in UrbanCode Deploy").
 
 ### Documentation
 
-Read about a full deployment architecture and process using WAS, BPM, and RTC [here](https://developer.ibm.com/urbancode/2015/09/18/continuous-integration-with-urbancode-deploy-and-ibm-business-process-server/).
+Read about a full deployment architecture and process using WAS, BPM, and RTC [here](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/07/20/bpserver).
 
 ### History
+#### Version 15
+
+Fixed the Add-comments step failure.
+
+#### Version 14
+
+Log4j issue addressed.
+
 
 #### Version 13
 
@@ -80,4 +88,4 @@ Added Check Work Item Status step.
 
 |Back to ...||Latest Version|IBM Rational Team Concert Work Items |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[14.1126873](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-RTC-WorkItems/ucd-plugin-air-RTC-WorkItems-14.1126873.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[15.1142216](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/plugin-air-RTC-WorkItems/ucd-plugin-air-RTC-WorkItems-15.1142216.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|

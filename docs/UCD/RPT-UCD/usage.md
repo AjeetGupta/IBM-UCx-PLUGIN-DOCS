@@ -30,7 +30,7 @@ After creating these pieces, you must create the testing workflow.
 
 1. To create a workflow for the newly created component process, click the component process. The Tools view displays the available plugin steps.
 2. From Rational Test Workbench > Performance Tester, drag the **Run RPT Test** step to the design space.
-3. Specify the properties for the step. For information about the properties, see the [Steps](https://www.urbancode.com/plugindoc/steps-2/) page.
+3. Specify the properties for the step. For information about the properties, see the [Steps](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/RPT-UCD/steps.html) page.
 4. After you configure the step properties, save the step by clicking Save.
 
 A typical process for the Performance Tester plugin will look like the following snapshot:
@@ -48,4 +48,4 @@ If you have multiple products installed on one target machine, either in the sam
 
 |Back to ...||Latest Version|IBM Rational Performance Tester (RPT) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPT-UCD/RPT-UCD-9.2.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[9.3](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RPT-UCD/RPT-UCD-9.3.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

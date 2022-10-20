@@ -24,7 +24,7 @@ that UrbanCode Release supports.
 ### Installation
 
 No special steps are required for installation. See [Installing
-plug-ins in UrbanCode Deploy](https://www.urbancode.com/resource/installing-plug-ins-in-urbancode-products/ "Installing
+plug-ins in UrbanCode Deploy](https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins "Installing
 plug-ins in UrbanCode").
 
 ### History
@@ -55,4 +55,4 @@ Initial release of the plug-in.
 
 |Back to ...||Latest Version|IBM UrbanCode Deploy |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[0]()|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|
+|[All Plugins](../../index.md)|[Release Plugins](../README.md)|[1.1141582.ifix01](https://github.com/UrbanCode/IBM-UCR-PLUGINS/blob/main/files/ucr-plugin-deploy/ucr-plugin-deploy-1.1141582.ifix01.zip)|[Readme](README.md)|[Usage](usage.md)|[Settings](settings.md)|
