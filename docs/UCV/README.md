@@ -10,6 +10,7 @@
 	- [Azure DevOps](#azure-devops)
 	- [BitBucket Server](#bitbucket-server)
 	- [Black Duck](#black-duck)
+	- [CircleCI](#circleci)
 	- [Code Coverage](#code-coverage)
 	- [CollabNet VersionOne](#collabnet-versionone)
 	- [Cucumber](#cucumber)
@@ -66,7 +67,7 @@ BitBucket is a source code version control repository hosting service owned by A
 
 |Back to ...||BitBucket Server |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-server/README.md)|[1.1.23](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.23.tar.7z.001)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-server/README.md)|[1.1.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.26.tar.7z.001)|
 
 ## Black Duck
 
@@ -77,6 +78,16 @@ Black Duck by Synopsys identifies open source related vulnerabilities in applica
 |Back to ...||Black Duck |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-blackduck/README.md)|[1.0.17](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-blackduck/ucv-ext-blackduck-1.0.17.tar.zip)|
+
+## CircleCI
+
+CircleCI is a modern continuous integration and continuous delivery (CI/CD) platform. CircleCI automates build, test, and deployment of software.
+
+---
+
+|Back to ...||Code Coverage |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-circleci/README.md)|[1.0.22](https://raw.githubusercontent.com//UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci:1.0.22.tar.7z.001)|
 
 ## Code Coverage
 
