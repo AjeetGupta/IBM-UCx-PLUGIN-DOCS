@@ -55,8 +55,8 @@ The following tables describe the properties used to configure the integration. 
 | NA | The version of the plug-in that you want to use. To view available versions, see the [UrbanCodeDockerHub](https://hub.docker.com/r/urbancode/ucv-ext-bitbucket-server/tags). If a value is not specified, the latest version is used. | No | image |
 | Integration Name | An assigned name to the value stream. | Yes | name |
 | Logging Level | The level of Log4j messages to display in the log file. Valid values are: all, debug, info, warn, error, fatal, off, and trace. | No | loggingLevel |
-| | List of configuration properties used to connect and communicate with the BitBucket server. Enclose the properties within braces. | Yes | properties |
-| NA  | The name of the tenant. | Yes | tenant\_id |
+| NA | List of configuration properties used to connect and communicate with the BitBucket server. Enclose the properties within braces. | Yes | properties |
+| NA | The name of the tenant. | Yes | tenant\_id |
 | NA | Unique identifier assigned to the plug-in. The value for the BitBucket Server plug-in is `ucv-ext-bitbucket-server` | Yes | type |
 
 ### Bitbucket properties
@@ -75,7 +75,7 @@ The following tables describe the properties used to configure the integration. 
 |Repository Slug | String | The slug of the repository. | Yes | repositorySlug |
 | Signature Method | String | The name of the signature method for oauth authentication. | No | signature\_method |
 | User Name | String | The user name used to authenticate with the Bitbucket server. | No | username |
-| Additional branches | Array | Additional branches to collect commits from besides the main one, leave blank if not needed. | No | otherBranches |
+| Additional branches | Array | Additional branches to collect commits from besides the main one, leave blank if not needed. Regular Expression is also enabled(ex-PLUGINS*,*) | No | otherBranches |
 
 ## JSON code example
 
@@ -108,4 +108,4 @@ bitbucket-server",
 
 |Back to ...||Latest Version|BitBucket Server |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.23](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.23.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server:1.1.26.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

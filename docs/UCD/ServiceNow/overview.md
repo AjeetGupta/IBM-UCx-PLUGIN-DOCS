@@ -16,6 +16,8 @@ The ServiceNow plug-in includes steps that check approvals and set the status of
 
 To add the ServiceNow plug-in steps to processes, click **ITSM Process > ServiceNow** in the step palette of the process editor.
 
+Follow this link (https://www.youtube.com/watch?v=7Vp1bnnkOps) to learn how to generate the Client-ID and Client-Secret for authenticating the plugin using Oauth 2.0
+
 ### Compatibility
 
 This plug-in requires version 6.0 or later of IBM UrbanCode Deploy.
@@ -35,6 +37,15 @@ No special steps are required for installation. See [Installing plug-ins in IBM 
 #### Version 31
 
 Updated log4j dependency.
+
+#### Version 30
+
+RFE - RFE URBANCODE-I-434: The state details in the logs improved for Check-Change-Request-State step
+
+#### Version 29
+
+RFE - Add Oauth 2.0 authentication mechanism to ths plugin.
+
 
 #### Version 28
 
