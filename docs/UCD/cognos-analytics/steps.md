@@ -1,31 +1,18 @@
 
-IBM Cognos Analytics - Steps
-============================
-
-# Steps
-
-
-### Steps
-
-
-
-
-Process steps in the Cognos Analytics plug-in
----------------------------------------------
+# IBM Cognos Analytics - Process Steps
 
 * [Export](#export)
 * [Import](#import)
 
 
-Export
-------
+### Export
 
 Export content from the content store to an archive file in the deployment directory within your Cognos home.
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Archive Name | String | The name of the export archive file. Do not include the .zip file extension. | Yes |
 | Cognos Analytics Java Library Directory | String | The Cognos Analytics Java library directory. The directory must contain the required JAR files, including the cognosClient.jar andcognos-axis.jar files. For example: C:\Program Files\IBM\cognos\analytics\sdk\java\lib. | Yes |
 | Deployment Spec | String | The name of an export deployment specification. If thisspecification does not exist on the Cognos Analytics server, it is be created. | Yes |
@@ -38,14 +25,13 @@ Export content from the content store to an archive file in the deployment direc
 | Password | Password | The password associated withthe administrator’s user ID. The default is the value in the ``${p:resource/crnPassword}`` property. | Yes |
 | UserID | String | The administrator user ID that has import and export privileges. | Yes |
 
-Import
-------
+### Import
 
 Import content from an archive to the Cognos Analytics content store.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Archive Name | String | The name of the archive file to import. Do not include the .zip file extension. | Yes |
 | Cognos Analytics Java Library Directory | String | The Cognos Analytics Java library directory. The directory must contain the required JAR files, including the cognosClient.jar and cognos-axis.jar files. For example: C:\Program Files\IBM\cognos\analytics\sdk\java\lib. | Yes |
 | Deployment Spec | String | The name of an import deployment specification. If this specification does not exist on the Cognos server, it is created. | Yes |

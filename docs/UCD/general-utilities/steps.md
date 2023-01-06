@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy General Utilites - Steps
-=============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the General Utilities plug-in
+# IBM UrbanCode Deploy General Utilites - Process Steps
 
 * [Wait](#wait)
 
@@ -20,8 +9,8 @@ IBM UrbanCode Deploy General Utilites - Steps
 Use this step to tell the process to wait for the specified number of seconds before the process resumes.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Duration (seconds) | String | The number of seconds to wait. | Yes |
 
 

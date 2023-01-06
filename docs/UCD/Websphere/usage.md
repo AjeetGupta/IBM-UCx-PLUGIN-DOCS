@@ -1,7 +1,6 @@
 
 # WebSphere Application Server - Deployment - Usage
 
-## Usage
 
 - [WebSphere Application Server - Deployment - Usage](#websphere-application-server---deployment---usage)
   - [Usage](#usage)
@@ -80,7 +79,7 @@ The plug-in now includes component templates. The component templates include pr
 9. The **Map Users And Groups to Roles for Application** step maps users to roles.
 10. The **Wait for Application** step introduces a delay to allow time for the application to start.
 
-[![DeployEARprocess](deployearprocess.gif)](deployearprocess.gif)
+[![DeployEARprocess](media/deployearprocess.gif)](media/deployearprocess.gif)
 
 |Back to ...||Latest Version|WebSphere Application Server - Deployment |||||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

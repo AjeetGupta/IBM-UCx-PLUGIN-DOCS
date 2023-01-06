@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Applications - Steps
-=========================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM UrbanCode Deploy Applications plug-in
+# IBM UrbanCode Deploy Applications - Process Steps
 
 * [Add Application To Team](#add_application_to_team)
 * [Add Component To Application](#add_component_to_application)
@@ -39,8 +28,8 @@ Adds an application or a list of applications delimited by commas to a team for 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application/Applications | String | A comma delimited list of application names/ids to add to the team. | Yes |
 | Team | String |  | Yes |
 | Type | String | The type classification to add. Leave blank to use the type Standard Application. | No |
@@ -50,8 +39,8 @@ Adds an application or a list of applications delimited by commas to a team for 
 Adds a component to an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String |  | Yes |
 | Component Name | String |  | Yes |
 
@@ -60,8 +49,8 @@ Adds a component to an application.
 Adds a tag to an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String |  | Yes |
 | Tag Name | String |  | Yes |
 
@@ -70,8 +59,8 @@ Adds a tag to an application.
 This step will succeed if the application exists and fail if it does not.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String |  | Yes |
 
 ### Check If Application Process Exists
@@ -79,8 +68,8 @@ This step will succeed if the application exists and fail if it does not.
 This step will succeed if the application process exists and fail if it does not.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String |  | Yes |
 | Application Process Name | String |  | Yes |
 
@@ -89,8 +78,8 @@ This step will succeed if the application process exists and fail if it does not
 Creates an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Description | String | A description of the new application. | No |
 | Application Name | String | The name of the new application. | Yes |
 | Default Notification Scheme | String | The notification scheme for this application(will default to none if not specified). | No |
@@ -102,8 +91,8 @@ Creates an application from a template and add existing components. Supported by
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Description | String | A description of the new application. | No |
 | Application Name | String | The name of the new application. | Yes |
 | Default Notification Scheme | String | The notification scheme for this application(will default to none if not specified). | No |
@@ -118,8 +107,8 @@ Creates an application from a template and add existing components. Supported by
 Creates an application process.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JSON body | String | JSON request body that represents the process to be created. | Yes |
 
 ### Create Application Property
@@ -127,8 +116,8 @@ Creates an application process.
 Creates a property for an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | name/ID of the application that the environment belongs to. | Yes |
 | Property Name | String | name of the property to set. | Yes |
 | Property Value | String | value of the property to set. | No |
@@ -140,8 +129,8 @@ Creates multiple applications using a JSON format. Outputs a comma delimited lis
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | JSON File/Text | String | Specify a body of JSON text or a file to define Applications. Separate multiple JSON objects by using commas within an array, e.g. [{}``,{}``,{}``]. | Yes |
 
 ### Create Snapshot
@@ -149,8 +138,8 @@ Creates multiple applications using a JSON format. Outputs a comma delimited lis
 Create a snapshot for an environment, specifying the list of versions to include.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | Name or ID of the application to add the snapshot to | Yes |
 | Description | String |  | No |
 | Snapshot Name | String |  | Yes |
@@ -161,8 +150,8 @@ Create a snapshot for an environment, specifying the list of versions to include
 Create a snapshot for an environment, specifying the list of versions to include.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | Name or ID of the application to add the snapshot to | Yes |
 | Description | String |  | No |
 | Environment | String | Name or ID of the environment to base the snapshot on | Yes |
@@ -173,8 +162,8 @@ Create a snapshot for an environment, specifying the list of versions to include
 Deletes an application
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | Name or ID of the application to delete | Yes |
 
 ### Get Application Details
@@ -182,8 +171,8 @@ Deletes an application
 Retrieve basic configuration information about a application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | Application name or ID | Yes |
 
 ### Get Components in Application
@@ -191,8 +180,8 @@ Retrieve basic configuration information about a application.
 Get a list of components in an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | Name or ID of the application | Yes |
 
 ### Get Environments in Application
@@ -200,8 +189,8 @@ Get a list of components in an application.
 Get a list of environments in an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Active environments | Boolean | check if active environments should be included in the list. | No |
 | Application | String | Name or ID of the application | Yes |
 | Inactive environments | Boolean | check if inactive environments should be included in the list. | No |
@@ -211,8 +200,8 @@ Get a list of environments in an application.
 Removes component(s) from an application
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application | String | Name or ID of the application from which the components are to be removed | Yes |
 | Components | String | Names or IDs of the components to be removed. Mention one component name per line. | Yes |
 
@@ -221,8 +210,8 @@ Removes component(s) from an application
 Removes a tag from an application.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String |  | Yes |
 | Tag Name | String |  | Yes |
 
@@ -231,8 +220,8 @@ Removes a tag from an application.
 Runs an application process.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Application Name | String | The name of the application. | Yes |
 | Application Process Name | String | The name of the process to run. | Yes |
 | Component Versions | String | If you are not using a snapshot, enter component versions here. Each component-version pair should be on a separate line.Separate each component and version number with a colon.Example- My Component:2.5 | No |

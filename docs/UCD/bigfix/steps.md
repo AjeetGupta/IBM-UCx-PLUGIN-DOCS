@@ -1,16 +1,5 @@
 
-IBM BigFix - Steps
-==================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the BigFix plug-in
+# IBM BigFix - Process Steps
 
 * [Start Action](#start_action)
 
@@ -20,8 +9,8 @@ IBM BigFix - Steps
 Create and start an action
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Hostname | String | The host name of the IBM BigFix server. For example: https://bigfix-server:8080 | Yes |
 | Password | Password | The password used to access the IBM BigFix server. | Yes |
 | Username | String | The user name used to access the IBM BigFix server. | Yes |

@@ -1,16 +1,5 @@
 
-Microsoft IIS AdminScripts - Steps
-==================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IIS AdminScripts plug-in
+# Microsoft IIS AdminScripts - Process Steps
 
 * [AdsUtil](#adsutil)
 * [Set .Net Version](#set_.net_version)
@@ -23,8 +12,8 @@ Microsoft IIS AdminScripts - Steps
 Run an arbitrary adsutil command.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | AdsUtil.vbs Path | String | The path to the AdsUtil.vps executable including the file name. eg: C:\InetPub\AdminScripts\adsutil.vbs | No |
 | Command | String | The command to be run using adsutil. | Yes |
 | Cscript Path | String | The path to the cscript.exe executable including the file name if not on the path. eg: C:\Windows\system32\cscript.exe | No |
@@ -36,8 +25,8 @@ Run an arbitrary adsutil command.
 Set the .net version for a website
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Version | Enumeration:
 * v2.0.50727
 * v1.1.4322
@@ -49,8 +38,8 @@ Set the .net version for a website
 Set properties on a virtual directory
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Parameters | String | A newline separated list of parameters to be set in the form name=value(note = is not valid as part of the name). | No |
 | VDir Offset | String | The offset from the website path to the virtual directory. For the default vdir it is /root. For a vdir named test it would be /root/test. | Yes |
 | WebSite | String | The website name. | No |
@@ -60,8 +49,8 @@ Set properties on a virtual directory
 Set properties on a website
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Parameters | String | A newline separated list of parameters to be set in the form name=value(note = is not valid as part of the name). | No |
 | WebSite | String | The website name. | No |
 

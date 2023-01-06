@@ -1,16 +1,5 @@
 
-IBM Rational Team Concert Work Items - Steps
-============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the RTC Work Items plug-in
+### IBM Rational Team Concert Work Items - Process Steps
 
 * [Add Work Item Comments](#add_work_item_comments)
 * [Change Work Item Status](#change_work_item_status)
@@ -23,8 +12,8 @@ IBM Rational Team Concert Work Items - Steps
 Add Comments to an RTC Work Item
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Add URL to Comment | Boolean | Check to append the URL of the process request to the comment to be posted. | No |
 | Comment | String | The comment to add to the RTC Work Item. | Yes |
 | Password | Password | The password to be used to connect to the RTC server. | Yes |
@@ -38,8 +27,8 @@ Add Comments to an RTC Work Item
 Change the status of an RTC Work Item
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Action | String | The action to be performed on the work item. | No |
 | New State | String | The new state for the work item. Will not be used if action is given. | No |
 | Password | Password | The password to be used to connect to the RTC server. | Yes |
@@ -53,8 +42,8 @@ Change the status of an RTC Work Item
 Check a work item for a specific status.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Password | Password | The password to use to connect to the Rational Team Concert server. | Yes |
 | Project Name | String | The name of the Rational Team Concert project that contains the work item to check. | Yes |
 | RTC Server URL | String | The URL of the Rational Team Concert server. For example: https://myserver:9443/jazz | Yes |
@@ -67,8 +56,8 @@ Check a work item for a specific status.
 Create an RTC Work Item
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Add URL to Comment | Boolean | Check to append the URL of the process request to the comment to be posted. | No |
 | Additional Work Item attributes | String | Enter a new-line-separated name=value pairs for any additional or custom attributes you want to populate in the new work item. The name is the ID of the attribute and value is the value. This field currently only supports rtc\_cm and oslc\_cm type text based value attributes as described here https://jazz.net/wiki/bin/view/Main/ResourceOrientedWorkItemAPIv2#Attributes and non text values are by ID reference. | No |
 | Comment | String | If you want to add a comment to the new work item enter it here. Check below if you want to add a link back to UCD execution in the comment. | No |

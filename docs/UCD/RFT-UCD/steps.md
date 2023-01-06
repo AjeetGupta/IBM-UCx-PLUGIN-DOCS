@@ -1,16 +1,5 @@
 
-IBM Rational Functional Tester (RFT) - Steps
-============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM Rational Test WorkbenchFunctional Tester plug-in
+# IBM Rational Functional Tester (RFT) - Process Steps
 
 * [Run Functional Test](#run_functional_test)
 
@@ -20,8 +9,8 @@ IBM Rational Functional Tester (RFT) - Steps
 Run test using Rational Functional Tester
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Iteration Count | String | Number of datapool iterations to be run. | No |
 | Log Format | Enumeration:
 * xml
@@ -37,4 +26,4 @@ Run test using Rational Functional Tester
 
 |Back to ...||Latest Version|IBM Rational Functional Tester (RFT) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.0.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.1.zip)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|[Downloads](downloads.md)|

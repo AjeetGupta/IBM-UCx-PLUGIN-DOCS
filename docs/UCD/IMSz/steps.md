@@ -1,13 +1,5 @@
 
-IBM IMS - Steps
-===============
-
-# Steps
-
-
-### Steps
-
-
+# IBM IMS - Steps
 
 
 ### Process steps in the IMS plug-in
@@ -20,8 +12,8 @@ IBM IMS - Steps
 Allows execution of IMS type-1 and type-2 commands.
 
 
-*Input properties for the Execute IMS Command step*| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+*Input properties for the Execute IMS Command step*| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | IMS Command | String | IMS command, followed by parameters. For example: UPDATE PGM NAME(*name*) START(SCHD) | Yes |
 | IMS ID | String | A 4-character IMS ID name used to identify the target IMS system the command is directed to within a given IMSplex. | Yes |
 | IMS PLEX | String | The 1-to-5 character suffix of the IMSplex name. | Yes |

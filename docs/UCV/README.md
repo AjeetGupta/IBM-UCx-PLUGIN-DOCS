@@ -8,6 +8,7 @@
 - [List of all Plugins](#list-of-all-plugins)
 	- [Apache JMeter](#apache-jmeter)
 	- [Azure DevOps](#azure-devops)
+	- [BitBucket Cloud](#bitbucket-cloud)
 	- [BitBucket Server](#bitbucket-server)
 	- [Black Duck](#black-duck)
 	- [CircleCI](#circleci)
@@ -17,6 +18,7 @@
 	- [Digital.ai Agility](#digitalai-agility)
 	- [Fortify SSC](#fortify-ssc)
 	- [GitHub](#github)
+	- [GitHub Dependabot](#github-dependabot)
 	- [GitLab](#gitlab)
 	- [HCL AppScan Enterprise (ASE)](#hcl-appscan-enterprise-ase)
 	- [HCL AppScan on Cloud (ASoC)](#hcl-appscan-on-cloud-asoc)
@@ -26,22 +28,28 @@
 	- [IBM Engineering Workflow Management (EWM)](#ibm-engineering-workflow-management-ewm)
 	- [JUnit](#junit)
 	- [Jira](#jira)
-	- [Jenkins For Urbancode-Velocity](#urbancode-velocity)
+	- [Microsoft Visual Studio Testing](#microsoft-visual-studio-testing)
+	- [urbancode-velocity](#urbancode-velocity)
+	- [Planview Leankit] (#planview-leankit)
 	- [Rally](#rally)
 	- [Rational Test Automation Server](#rational-test-automation-server)
+	- [SAP ChaRM](#sap-charm)
 	- [Selenium](#selenium)
 	- [ServiceNow](#servicenow)
+	- [Shell](#shell)
+	- [Snyk](#snyk)
 	- [SonarQube](#sonarqube)
 	- [TestComplete](#testcomplete)
 	- [TestNG](#testng)
 	- [Twistlock](#twistlock)
 	- [Urbancode Deploy](#urbancode-deploy)
+	- [WhiteSource](#whitesource)
 
 # List of all Plugins
 
 ## Apache JMeter
 
-Meter is a testing tool to analyze and measure web application performance. The JMeter plug-in imports the test results  data in UrbanCode Velocity metrics.
+Apache JMeter is a testing tool to analyze and measure web application performance. The JMeter plug-in imports the test results  data in UrbanCode Velocity metrics.
 
 ---
 
@@ -59,9 +67,19 @@ Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)p
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-azure/README.md)|[4.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure-4.0.26.tar.zip)|
 
+## BitBucket Cloud
+
+BitBucket Cloud is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.
+
+---
+
+|Back to ...||BitBucket Cloud |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bitbucket-cloud/README.md)|[1.0.26](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud:1.0.26.tar.7z.001)|
+
 ## BitBucket Server
 
-BitBucket is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.
+BitBucket Server is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.
 
 ---
 
@@ -148,6 +166,16 @@ GitHub is a Git repository hosting service. It provides tools to manage artifact
 |Back to ...||GitHub |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-github/README.md)|[1.2.25](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github-1.2.25.tar.zip)|
+
+## GitHub Dependabot
+
+Github Dependabot plug-in scans package dependency vulnerabilities as Dependabot alerts from GitHub.
+
+---
+
+|Back to ...||GitHub Dependabot |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-dependabot/README.md)|[1.0.2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-dependabot/ucv-ext-dependabot:1.0.2.tar.7z.001)|
 
 ## GitLab
 
@@ -239,6 +267,16 @@ Jira is an issue tracking product, developed by Atlassian. The Jira plug-in prov
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-jira/README.md)|[2.2.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira-2.2.1.tar.zip)|
 
+## Microsoft Visual Studio Testing
+
+Microsoft Visual Studio is a testing framework which is used to define and run unit tests to verify and maintain code integerty. 
+
+---
+
+|Back to ...||Microsoft Visual Studio Testing |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-vs-quality/README.md)|[1.0.31](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-vs-quality/ucv-ext-vs-quality-1.0.31.tar.zip)|
+
 ## urbancode-velocity
 
 With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment plan in UrbanCode Velocity. You can run jobs that will trigger the creation of a version in a Velocity Pipeline as well as persist properties on that version that can be used as input properties in other Jenkins builds. This plugin will pass along important data from Git to the Velocity Pipeline.
@@ -249,6 +287,16 @@ With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment pla
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](urbancode-velocity/README.md)|[3.0.0](https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.0/urbancode-velocity-3.0.0.hpi)|
 
+
+## Planview Leankit
+
+The Planview Leankit plugin processes incoming data from Planview LeanKit server.
+
+---
+
+|Back to ...||Planview Leankit |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-leankit/README.md)|[1.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-leankit/ucv-ext-leankit:1.0.1.tar.7z.001)|
 
 ## Rally
 
@@ -270,6 +318,16 @@ Rational Test Automation Server is a fully-containerized (Docker) server compone
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-rtas/README.md)|[1.0.22](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas-1.0.22.tar.zip)|
 
+## SAP ChaRM
+
+The SAP ChaRM plug-in will sync SAP Normal Changes in SAP's Change Request Management with Jira issues .
+
+---
+
+|Back to ...||SAP ChaRM |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-sap-charm/README.md)|[2.2.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-sap-charm/ucv-ext-sap-charm:2.2.1.tar.7z.001)|
+
 ## Selenium
 
 ---
@@ -287,6 +345,26 @@ The ServiceNow plug-in for IBM UrbanCode Velocity automates the importing of Ser
 |Back to ...||ServiceNow |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-servicenow/README.md)|[1.0.27](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow-1.0.27.tar.zip)|
+
+## Shell
+
+The Shell plug-in for IBM UrbanCode Velocity automates the task in releases.
+
+---
+
+|Back to ...||Shell |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-shell/README.md)|[0.0.7](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-shell-0.0.7.tar.zip)|
+
+## Snyk
+
+The Snyk plug-in scans GitHub , GitLab and Bitbucket repositories package dependency vulnerabilities from Snyk . Works on top of existing GiHub , GitLab or Bitbucket integraions.
+
+---
+
+|Back to ...||Snyk |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-snyk/README.md)|[1.0.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-snyk/ucv-ext-snyk:1.0.1.tar.7z.001)|
 
 ## SonarQube
 
@@ -330,10 +408,22 @@ Twistlock provides container security. It is a rule-based access control policy 
 
 UrbanCode Deploy is engineered to handle the most complex deployment situations with push-button automation and controlled auditing needed in production. UrbanCode Deploy automates application deployments across varying IT environments.
 
-The Deploy Plugin for Accelerate imports deployment data from UrbanCode Deploy into urbancode velocity. Applications in UrbanCode Deploy can be mapped in the Accelerate pipeline and the application versions can be tracked from the pipeline.
+The Deploy Plugin for UrbanCode Velocity imports deployment data from UrbanCode Deploy into UrbanCode Velocity. Applications in UrbanCode Deploy can be mapped in the UrbanCode Velocity pipeline and the application versions can be tracked from the pipeline.
 
 ---
 
 |Back to ...||Urbancode Deploy |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-ucd/README.md)|[1.0.12](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-ucd/ucv-ext-ucd:1.0.12.tar)|
+
+## WhiteSource
+
+WhiteSource identifies all open source components and their dependencies in software. WhiteSource secures software from vulnerabilities and enforces license policies throughout the software development lifecycle.
+
+The WhiteSource plug-in retrieves WhiteSource scan results and displays the License Risks and Security Vulnerabilities in IBM UrbanCode Velocity metric displays.
+
+---
+
+|Back to ...||WhiteSource |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-whitesource/README.md)|[2.0.15](https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-whitesource/ucv-ext-whitesource-2.0.15.tar.zip)|

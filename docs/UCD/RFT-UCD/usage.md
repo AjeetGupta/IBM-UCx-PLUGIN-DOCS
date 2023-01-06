@@ -1,13 +1,5 @@
 
-IBM Rational Functional Tester (RFT) - Usage
-============================================
-
-# Usage
-
-
-### Usage
-
-
+# IBM Rational Functional Tester (RFT) - Usage
 
 
 ### [Example: Running functional tests](#component_process_run)
@@ -42,7 +34,7 @@ To create a workflow, do the following tasks:
 
 A basic process for a functional test plug-in is shown in the following snapshot:
 
-[![Run functional tests basic flow](rft_basic_flow.png)](rft_basic_flow.png)
+[![Run functional tests basic flow](media/rft_basic_flow.png)](media/rft_basic_flow.png)
 
 ### Note:
 
@@ -60,4 +52,4 @@ The following video shows how to use the Rational Functional Tester plug-in for 
 
 |Back to ...||Latest Version|IBM Rational Functional Tester (RFT) ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.0](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.0.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[6.1](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/RFT-UCD/RFT-UCD-FunctionalTest-6.1.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

@@ -1,16 +1,5 @@
 
-IBM Rational Performance Tester (RPT) - Steps
-=============================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM Rational Test WorkbenchRPT plug-in
+# IBM Rational Performance Tester (RPT) - Process Steps
 
 * [Run RPT Test](#run_rpt_test)
 
@@ -20,8 +9,8 @@ IBM Rational Performance Tester (RPT) - Steps
 Execute Web UI Tests from IBM Rational Test Workbench
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Config File | String | The complete path to a file that contains the parameters for a test or schedule run. | No |
 | Custom Report Format Files | String | A comma-separated list of absolute paths to custom report format files (.view files) to use when exporting statistical report data with the-exportstatsoption. | No |
 | Exported HTTP Test log File | String | The complete path to a file in which to store the exported HTTP test log. | No |

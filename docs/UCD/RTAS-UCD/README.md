@@ -1,8 +1,7 @@
 
-IBM Rational Test Automation Server (RTAS)
-==========================================
+# IBM Rational Test Automation Server (RTAS)
 
-The Rational Test Automation Server plug-in provides for integration with an Rational Test Automation Server server to automate tests within a deployment process using UrbanCode Deploy.
+The Rational Test Automation Server plug-in provides the capability for the integration with an Rational Test Automation Server server to automate tests within a deployment process when you use UrbanCode Deploy.
 
 |Back to ...||Latest Version|||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

@@ -1,8 +1,5 @@
 
-JBoss Application Server - Downloads
-====================================
-
-# Downloads
+# JBoss Application Server - Downloads
 
 - [ucd-JBoss-24.1144778.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/ucd-JBoss-24.1144778.zip)
 - [JBoss-23.1108451.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/JBoss/JBoss-23.1108451.zip)

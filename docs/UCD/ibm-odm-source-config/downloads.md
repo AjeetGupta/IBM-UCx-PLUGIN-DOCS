@@ -1,8 +1,5 @@
 
-IBM Operational Decision Manager (ODM) Source Config - Downloads
-================================================================
-
-# Downloads
+# IBM Operational Decision Manager (ODM) Source Config - Downloads
 
 - [ucd-ibm-odm-source-config-14.1149407.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-14.1149407.zip)
 - [ucd-ibm-odm-source-config-13.1143099.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ibm-odm-source-config/ucd-ibm-odm-source-config-13.1143099.zip)

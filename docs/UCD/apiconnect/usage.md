@@ -1,13 +1,5 @@
 
-IBM API Connect - Usage
-=======================
-
-# Usage
-
-
-### Usage
-
-
+# IBM API Connect - Usage
 
 
 To understand how to use the API Connect plug-in this topic uses two component templates that are available. The information in this topic is also available through a video, to watch the video, go to the [Using the API Connect plug-in](#video-walkthrough).
@@ -45,7 +37,7 @@ The following prerequisites must be completed.
 
 After the prerequisites are completed, the following tasks are done in UrbanCode Deploy.
 
-[![loopbackProc](loopbackproc1.png)](loopbackproc1.png)
+[![loopbackProc](media/loopbackproc1.png)](media/loopbackproc1.png)
 
 1. In the UrbanCode Deplpoy interface install the IBM API Connect plug-in. Click **tt>Components** and then the **Templates** tab. The **API ConnectPublish Loopback Application** template should be in the template list. Open the template.
 2. Click **Create Component**.
@@ -90,7 +82,7 @@ The following prerequisites steps prepare a definition for deployment. If the pr
 
 After the prerequisites are completed, the following tasks are done in UrbanCode Deploy.
 
-[![publishDefinition](publishdefinition1.png)](publishdefinition1.png)
+[![publishDefinition](media/publishdefinition1.png)](media/publishdefinition1.png)
 
 1. In the UrbanCode Deploy user interface, install the IBM API Connect plug-in, click the **Components**, and then the **Templates** tab. The **API ConnectRelease API Product Definitions from Drafts** template should be in the template list. Enter the template.
 2. Click the **Create Component**.

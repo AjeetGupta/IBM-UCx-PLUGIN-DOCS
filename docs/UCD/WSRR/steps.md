@@ -1,16 +1,5 @@
 
-IBM WebSphere Service Registry and Repository - Steps
-=====================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WebSphere Service Registry And Repository plug-in
+# IBM WebSphere Service Registry and Repository - Process Steps
 
 * [Activate Configuration Profile](#activate_configuration_profile)
 * [Delete Configuration Profile](#delete_configuration_profile)
@@ -24,8 +13,8 @@ This step archives the currently active profile, and then makes the specified co
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | In a stand-alone or federated node configuration, the name of the cell in which WSRR is deployed. | No |
 | Cluster Name | String | In a cluster configuration, the name of the cluster on which WSRR is deployed. | No |
 | Node Name | String | In a stand-alone or federated node configuration, the name of the node on which WSRR is deployed. | No |
@@ -40,8 +29,8 @@ This step archives the currently active profile, and then makes the specified co
 This script removes a configuration profile from WSRR.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | In a stand-alone or federated node configuration, the name of the cell in which WSRR is deployed. | No |
 | Cluster Name | String | In a cluster configuration, the name of the cluster on which WSRR is deployed. | No |
 | Node Name | String | In a stand-alone or federated node configuration, the name of the node on which WSRR is deployed. | No |
@@ -57,8 +46,8 @@ This step loads a configuration profile, from a configuration profile compressed
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Cell Name | String | In a stand-alone or federated node configuration, the name of the cell in which WSRR is deployed. | No |
 | Cluster Name | String | In a cluster configuration, the name of the cluster on which WSRR is deployed. | No |
 | File Name | String | The name of the configuration profile file.  | Yes |
@@ -75,8 +64,8 @@ This step loads a configuration profile, from a configuration profile compressed
 This script registers service using WSDL document onto WSRR.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | CSV File | String | The name of the CSV file which describes your services metadata. | Yes |
 | Host Name | String | The host name of the server on which you want to register your service. | Yes |
 | Password | Password | The password of the account that will interact with WSRR system. | Yes |

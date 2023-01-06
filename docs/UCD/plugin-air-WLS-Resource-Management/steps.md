@@ -1,16 +1,5 @@
 
-Oracle WebLogic Server Resource Management - Steps
-==================================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the WebLogic Server Resource Management plug-in
+# Oracle WebLogic Server Resource Management - Process Steps
 
 * [Create Capacity](#create_capacity)
 * [Create Connection Factory](#create_connection_factory)
@@ -73,8 +62,8 @@ Oracle WebLogic Server Resource Management - Steps
 Use this step to create a capacity on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Capacity Name | String | The name of the capacity to create. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -90,8 +79,8 @@ Use this step to create a capacity on the WebLogic server.
 Use this step to create a JMS connection factory on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Connection Factory Name | String | The name of the JMS connection factory to create. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -108,8 +97,8 @@ Use this step to create a JMS connection factory on the WebLogic server.
 Use this step to create a distributed queue on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Destination Type | Enumeration | The destination type of the distributed queue. Specify either `DistributedQueue` for weighted distributed or `UniformDistributedQueue` for uniform distributed. | Yes |
 | Distributed Queue Name | String | The name of the distributed queue to create. | Yes |
@@ -128,8 +117,8 @@ Use this step to create a distributed queue on the WebLogic server.
 Use this step to create a distributed topic on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Destination Type | Enumeration | The destination type for the distributed topic. Specify either `DistributedTopic` for weighted distributed or `UniformDistributedTopic` for uniform distributed. | Yes |
 | Distributed Topic Name | String | The name of the distributed topic to create. | Yes |
@@ -148,8 +137,8 @@ Use this step to create a distributed topic on the WebLogic server.
 Use this step to create a file store on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | File Store Name | String | Name of the file store to create. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -165,8 +154,8 @@ Use this step to create a file store on the WebLogic server.
 Use this step to create a JDBC data source on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JDBC Data Source Name | String | The name of the JDBC data source to create. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -182,8 +171,8 @@ Use this step to create a JDBC data source on the WebLogic server.
 Use this step to create a JDBC store on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JDBC Store Name | String | The name of the JDBC store to create. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -199,8 +188,8 @@ Use this step to create a JDBC store on the WebLogic server.
 Use this step to create a JMS server on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMS Server Name | String | The name of the JMS Server to create. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -216,8 +205,8 @@ Use this step to create a JMS server on the WebLogic server.
 Use this step to creates a max-threads constraint on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -233,8 +222,8 @@ Use this step to creates a max-threads constraint on the WebLogic server.
 Use this step to create a min-threads constraint on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -250,8 +239,8 @@ Use this step to create a min-threads constraint on the WebLogic server.
 Use this step to create a module on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -267,8 +256,8 @@ Use this step to create a module on the WebLogic server.
 Use this step to create a queue on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -285,8 +274,8 @@ Use this step to create a queue on the WebLogic server.
 Use this step to creates a quota on a WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -303,8 +292,8 @@ Use this step to creates a quota on a WebLogic server.
 Use this step to create a store-and-forward (SAF) imported destination on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -321,8 +310,8 @@ Use this step to create a store-and-forward (SAF) imported destination on the We
 Use this step to create a subdeployment on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -339,8 +328,8 @@ Use this step to create a subdeployment on the WebLogic server.
 Use this step to create a template.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -357,8 +346,8 @@ Use this step to create a template.
 Use this step to create a topic on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -375,8 +364,8 @@ Use this step to create a topic on the WebLogic server.
 Use this step to create a work manager on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -392,8 +381,8 @@ Use this step to create a work manager on the WebLogic server.
 Use this step to delete a capacity from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Capacity Name | String | The name of the capacity to delete. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -409,8 +398,8 @@ Use this step to delete a capacity from the WebLogic server.
 Use this step to delete a JMS connection factory from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Connection Factory Name | String | Name of the JMS connection factory to delete. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -427,8 +416,8 @@ Use this step to delete a JMS connection factory from the WebLogic server.
 Use this step to delete a distributed queue from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Destination Type | Enumeration | The destination type of the distributed queue. Specify either `DistributedQueue` for weighted distributed or `UniformDistributedQueue` for uniform distributed. | Yes |
 | Distributed Queue Name | String | The name of the distributed queue to delete. | Yes |
@@ -447,8 +436,8 @@ Use this step to delete a distributed queue from the WebLogic server.
 Use this step to delete a distributed topic from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Destination Type | Enumeration | The destination type for the distributed topic. Specify either `DistributedTopic` for weighted distributed or `UniformDistributedTopic` for uniform distributed | Yes |
 | Distributed Topic Name | String | The name of the distributed topic to delete. | Yes |
@@ -467,8 +456,8 @@ Use this step to delete a distributed topic from the WebLogic server.
 Use this step to delete a file store from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | File Store Name | String | The name of the file store to delete. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -484,8 +473,8 @@ Use this step to delete a file store from the WebLogic server.
 Use this step to delete a JDBC data source from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JDBC Data Source Name | String | The name of the JDBC data source to delete. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -501,8 +490,8 @@ Use this step to delete a JDBC data source from the WebLogic server.
 Use this step to delete a JDBC store from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JDBC Store Name | String | The name of the JDBC store to delete. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -518,8 +507,8 @@ Use this step to delete a JDBC store from the WebLogic server.
 Use this step to delete a JMS server from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMS Server Name | String | The name of the JMS server to delete. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -535,8 +524,8 @@ Use this step to delete a JMS server from the WebLogic server.
 Use this step to delete a max threads constraint from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -552,8 +541,8 @@ Use this step to delete a max threads constraint from the WebLogic server.
 Use this step to delete a min-threads constraint from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -569,8 +558,8 @@ Use this step to delete a min-threads constraint from the WebLogic server.
 Use this step to delete a module from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -586,8 +575,8 @@ Use this step to delete a module from the WebLogic server.
 Use this step to delete a queue on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -604,8 +593,8 @@ Use this step to delete a queue on the WebLogic server.
 Use this step to delete a quota in the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -623,8 +612,8 @@ Use this step to delete a store-and-Forward (SAF) imported destination from the 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -641,8 +630,8 @@ Use this step to delete a store-and-Forward (SAF) imported destination from the 
 Use this step to delete a subdeployment from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -659,8 +648,8 @@ Use this step to delete a subdeployment from the WebLogic server.
 Use this step to delete a template on the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -677,8 +666,8 @@ Use this step to delete a template on the WebLogic server.
 Use this step to delete a topic from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -695,8 +684,8 @@ Use this step to delete a topic from the WebLogic server.
 Use this step to delete a work manager from the WebLogic server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | TThe path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -713,8 +702,8 @@ Use this step to update a capacity on the WebLogic server. If the capacity does 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Capacity Name | String | The name of the capacity to update. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -731,8 +720,8 @@ Use this step to update a JMS connection factory on the WebLogic server. If the 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Connection Factory Name | String | The name of the JMS connection factory to update. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -750,8 +739,8 @@ Use this step to update a distributed queue on the WebLogic server. If the distr
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Destination Type | Enumeration | The type of distributed distribution queue. Specify either `DistributedQueue` for weighted distributed or `UniformDistributedQueue` for uniform distributed. | Yes |
 | Distributed Queue Name | String | The name of the distributed queue to update. | Yes |
@@ -771,8 +760,8 @@ Use this step to update a distributed topic on the WebLogic server. If the distr
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | Destination Type | Enumeration | The destination type for the distributed topic. Specify either `DistributedTopic` for weighted distributed or `UniformDistributedTopic` for uniform distributed . | Yes |
 | Distributed Topic Name | String | The name of the distributed topic to update. | Yes |
@@ -792,8 +781,8 @@ Use this step to update a file store on the WebLogic server. If the file store d
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | File Store Name | String | Name of the file store to update. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -810,8 +799,8 @@ Use this step to update a JDBC data source on the WebLogic server. If the JDBC d
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JDBC Data Source Name | String | The name of the JDBC data source to update. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -828,8 +817,8 @@ Use this step to updates a JDBC store on the WebLogic server. If the JDBC store 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JDBC Store Name | String | The name of the JDBC store to update. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -846,8 +835,8 @@ Use this step to update a JMS server on the WebLogic server. If the JMS server d
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMS Server Name | String | The name of the JMS Server to update. | Yes |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
@@ -864,8 +853,8 @@ Use this step to update a max-threads constraint on the WebLogic server. If the 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -882,8 +871,8 @@ Use this step to update a min-threads constraint on the WebLogic server. If the 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -900,8 +889,8 @@ Use this step to update a module on the WebLogic server. If the module does not 
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -918,8 +907,8 @@ Use this step toupdate a queue on the WebLogic server. If the queue does not exi
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -937,8 +926,8 @@ Use this step to update a quota in the WebLogic server. If the quota does not ex
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to be used. | Yes |
@@ -956,8 +945,8 @@ Use this step to update a store-and-forward (SAF) imported destination on the We
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -975,8 +964,8 @@ Use this step to update a subdeployment on the Weblogic server. If the subdeploy
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -994,8 +983,8 @@ Use this step to update a template. If the template does not exist, the template
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -1013,8 +1002,8 @@ Use this step to update a topic on the WebLogic server. If the topic does not ex
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |
@@ -1032,8 +1021,8 @@ Use this step to update a work manager on the WebLogic server. If the work manag
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | A comma-separated list of additional properties to pass. | No |
 | JMX JAR Path | String | The path to the `wljmxclient.jar` file, which is located in the `/server/lib` directory. Specify the complete directory structure, for example: `*WebLogic\_home\_directory*/server/lib/wljmxclient.jar`. | Yes |
 | JMX Properties Path | String | The path to the JMX properties file to use. | Yes |

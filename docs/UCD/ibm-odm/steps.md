@@ -1,16 +1,6 @@
 
-IBM Operational Decision Manager (ODM) - Steps
-==============================================
+#  IBM Operational Decision Manager (ODM) - Process Steps
 
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the IBM ODM plug-in
 
 * [Delete XOM](#delete_data_model)
 * [Delete Rule Archive](#delete_rule_archive)
@@ -27,8 +17,8 @@ Delete a XOM from a Rule Execution Server.
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Hostname | String | The host name of the server where the Rule Execution Server console is installed. For example: 192.0.2.1 | Yes |
 | Password | Password | The password to use to log in to the Rule Execution Server console. | No |
 | Port | String | The port number of the Rule Execution Server console. | Yes |
@@ -48,8 +38,8 @@ Delete a ruleset or ruleapp archive from a Rule Execution Server.
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Hostname | String | The host name of the server where the Rule Execution Server console is installed. For example: 192.0.2.1 | Yes |
 | Password | Password | The password to use to log in to the Rule Execution Server console. | No |
 | Port | String | The port number of the Rule Execution Server console. | Yes |
@@ -69,8 +59,8 @@ Deploy an XOM resource to a Rule Execution Server instance of IBM Operational De
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Hostname | String | The host name of the server where the Rule Execution Server console is installed. For example: 192.0.2.1 | Yes |
 | Password | Password | The password to use to log in to the Rule Execution Server console. | No |
 | Port | String | The port number of the Rule Execution Server console. | Yes |
@@ -90,8 +80,8 @@ Deploy an XOM resource to a Rule Execution Server instance of IBM Operational De
 Deploy a RuleSet or RuleApp archive to IBM Operational Decision Manager.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Hostname | String | The host name of the server where the Rule Execution Server console is installed. For example: 192.0.2.1 | Yes |
 | Merging Policy | Enumeration:
 * NONE
@@ -126,8 +116,8 @@ Deploy a RuleSet or RuleApp archive to IBM Operational Decision Manager.
 Fetch a ruleset or ruleapp archive from a Rule Execution Server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Hostname | String | The host name of the server where the Rule Execution Server console is installed. For example: 192.0.2.1 | Yes |
 | Password | Password | The password to use to log in to the Rule Execution Server console. | No |
 | Port | String | The port number of the Rule Execution Server console. | Yes |
@@ -146,8 +136,8 @@ Fetch a ruleset or ruleapp archive from a Rule Execution Server.
 Fetch a XOM resource from a Rule Execution Server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Hostname | String | The host name of the server where the Rule Execution Server console is installed. For example: 192.0.2.1 | Yes |
 | Password | Password | The password to use to log in to the Rule Execution Server console. | No |
 | Port | String | The port number of the Rule Execution Server console. | Yes |
@@ -167,8 +157,8 @@ Create or update a property value for a RuleApp or RuleSet on a Rule Execution S
 
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Create New Property | Boolean | Mark checkbox if creating a new property. Do not check box if updating an existing property. | No |
 | Hostname | String | The host name of the server where the Rule Execution Server console is installed. For example: 192.0.2.1 | Yes |
 | Password | Password | The password to use to log in to the Rule Execution Server console. | No |

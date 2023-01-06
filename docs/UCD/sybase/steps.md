@@ -1,15 +1,5 @@
 
-Sybase - Steps
-==============
-
-# Steps
-
-
-### Steps
-
-
-
-### Process steps in the Sybase plug-in
+# Sybase - Process Steps
 
 * [Run SQL Scripts](#run_sql_scripts)
 
@@ -19,8 +9,8 @@ Sybase - Steps
 Execute one or more SQL scripts on the server.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Additional Arguments | String | Specify any additional arguments to append to the isql utility. Separate each argument by a new line. | No |
 | Database | String | The name of the database in which the Isql session begins. | Yes |
 | Error Notification | Enumeration:

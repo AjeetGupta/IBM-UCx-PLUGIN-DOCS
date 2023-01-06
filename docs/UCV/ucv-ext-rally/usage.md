@@ -1,7 +1,5 @@
 # Rally - Usage
 
-## Usage
-
 To use the Rally plug-in, the plug-in must be loaded and an instance created before you can configure
 the plug-in integration. Configuration properties are defined using the product user interface or a JSON file.
 
@@ -44,8 +42,10 @@ file is a section for integrations. It is in this section that plug-in propertie
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-* The ***General Configuration Properties*** table describes configuration properties used by all plug-in integrations.
+* The General Configuration Properties table describes configuration properties used by all plug-in integrations.
 * The Rally Configuration Properties table describes the configuration properties that define the connection and communications with the Rally server. When using the JSON method to integrate the plug-in these properties are coded within the `properties` configuration property.
+
+### General Configuration Properties
 
 | Name | Description | Required | Property Name |
 | --- | --- | --- | --- |
@@ -56,6 +56,8 @@ The following tables describe the properties used to configure the integration. 
 |  | The name of the tenant. | Yes | tenant_id |
 | NA | Unique identifier assigned to the plug-in. The value for the Rally plug-in is `ucv-ext-rally` | Yes | type |
 
+### Rally Configuration Properties
+
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
 | API Token | Secure | The API token used to authenticate with the Rally server. You must specify a value for either this property or username and password properties. | No | apiKey |
@@ -63,7 +65,7 @@ The following tables describe the properties used to configure the integration. 
 | Password | Secure | The password used to authenticate with the Rally server. Specify either the username and password properties or the apiKey property. | No | password |
 | URL | String | The URL of the Rally server. The default is https://rally1.rallydev.com. | Yes | baseUrl |
 | User Name | String | The user name used to authenticate with the Rally server. Specify either the username and password properties or the apiKey property. | No | username |
-| ucvAccessKey | Secure | The user access key used to authenticate with the HCL Accelerate server. | Yes | ucvAccessKey |
+| ucvAccessKey | Secure | The user access key used to authenticate with the IBM UrbanCode Velocity server. | Yes | ucvAccessKey |
 | Workspace | String | The name of the Rally workspace to use on request. This property is required if you are not using a default workspace. | No | workspace |
 | Proxy Server | String | The URL of the proxy server including the port number. | No | proxyServer |
 | Proxy User Name | String | The user name used to authenticate with the proxy server. | No | proxyUsername |
@@ -71,8 +73,7 @@ The following tables describe the properties used to configure the integration. 
 
 ## Example
 
-The following example can be used as as template to include the Rally plug-in integration into the JSON file. Copy and paste the template into the JSON file and make the appropriate
-changes.
+The following example can be used as as template to include the Rally plug-in integration into the JSON file. Copy and paste the template into the JSON file and make the appropriate changes.
 
 ```json
 

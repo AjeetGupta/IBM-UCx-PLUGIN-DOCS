@@ -1,8 +1,5 @@
 
-ServiceNow - Downloads
-======================
-
-# Downloads
+# ServiceNow - Downloads
 
 - [ucd-ServiceNow-31.1148995.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-31.1148995.zip)
 - [ucd-ServiceNow-30.1144780.zip](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/ServiceNow/ucd-ServiceNow-30.1144780.zip)

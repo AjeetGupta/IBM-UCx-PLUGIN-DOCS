@@ -1,26 +1,16 @@
 
-Git - Overview
-==============
-
-# Overview
-
-
-### Overview
-
-
-
+# Git - Overview
 
 The Git plug-in automates importing artifacts from a Git repository.
 
 This plug-in includes one step which has no input properties:
 
-* [Import Version](#import_version)
+* [Import Version](./settings.md#import-version)
 
 The plug-in adds the following roles to resources:
 
-* [GitComponentProperties](#gitcomponentproperties_role)
-* [GitImportProperties](#gitimportproperties_role)
-
+* [GitComponentProperties](./settings.md#gitcomponentproperties)
+* [GitImportProperties](./settings.md#gitimportproperties)
 
 ### Step palette
 

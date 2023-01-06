@@ -1,16 +1,5 @@
 
-Oracle SQLPlus - Steps
-======================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Oracle SQL\*Plus plug-in
+# Oracle SQLPlus - Process Steps
 
 * [Run SQLPlus script](#run_sqlplus_script)
 * [SQLPlus through Control File](#sqlplus_through_control_file)
@@ -21,8 +10,8 @@ Oracle SQLPlus - Steps
 Run SQLPlus script
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Connection ID | String | The connection ID to be used (example: localhost:1521/ORCL). If you use the SYS account to run SQL scripts, add the suffix AS SYSDBA. | Yes |
 | Fail on Database Messages | Boolean | Check this box to fail on ORA- Database Messages. This option will be ignored if the Skip SQL Errors option is selected. | No |
 | Oracle Home | String | Optional field to specify the ORACLE\_HOME environment variable value. This field is required to authenticate through Oracle Wallet. | No |
@@ -43,8 +32,8 @@ Run SQLPlus script
 Run SQLPlus scripts using control files for orchestration.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | ConnectionId x User to Password | String | A newline separated list of connection IDs, User Names and Passwords. The expected format for a line is username@connectionId=Password. To use Oracle Wallet authentication, use the format @connectionId. A combination of the two formats is allowed. | Yes |
 | Control File Excludes | String | A newline seperated list of control file excludes for finding control files. Use \* for matching any file or folder, and \*\* for recursively matching folders. | No |
 | Control File Includes | String | A newline seperated list of control file includes for finding control files. Use \* for matching any file or folder, and \*\* for recursively matching folders. Each line of a control file should be formatted thusly scriptName\tconnectionId\tuser\tABORT\_FLAG. \t means whitespace tab.For an example of what a control file should look like, see control.example.txt and the readme.txt in the root of the plugin. | No |

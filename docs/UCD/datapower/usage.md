@@ -1,13 +1,5 @@
 
-IBM DataPower Configuration Manager - Usage
-===========================================
-
-# Usage
-
-
-### Usage
-
-
+# IBM DataPower Configuration Manager - Usage
 
 
 * [Automated DataPower Deployment and Management Using UrbanCode Deploy at HM Health Solutions](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&referrer=&eventid=1457384&sessionid=1&key=B964DE08F3C2EEC28B45B7633953679E&regTag=&sourcepage=register): Webinar on how HighMark Health Solutions uses IBM UrbanCode and DataPower in production. Requires short sign-up to watch.
@@ -25,4 +17,4 @@ IBM DataPower Configuration Manager - Usage
 
 |Back to ...||Latest Version|IBM DataPower Configuration Manager ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v24.4cfd2d7](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/24/datapower-v24.4cfd2d7.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[v25](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v25.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

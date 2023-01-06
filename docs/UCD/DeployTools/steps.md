@@ -1,16 +1,5 @@
 
-IBM UrbanCode Deploy Tools - Steps
-==================================
-
-# Steps
-
-
-### Steps
-
-
-
-
-### Process steps in the Deploy Tools plug-in
+# IBM UrbanCode Deploy Tools - Process Steps
 
 * [Check Total Application Process Execution Time](#check_total_application_process_execution_time)
 * [Check Total Component Process Execution Time](#check_total_component_process_execution_time)
@@ -23,8 +12,8 @@ IBM UrbanCode Deploy Tools - Steps
 Check the run time of the application process and fail if the time is greater than the specified threshold.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Process Request ID | String |  | Yes |
 | Timeout | String | The number of seconds that the application process is allowed to run. | Yes |
 
@@ -33,8 +22,8 @@ Check the run time of the application process and fail if the time is greater th
 Check the run time of the component process and fail if the time is greater than a specified threshold.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Component Process Request ID | String |  | Yes |
 | Timeout | String | The number of seconds that the component process is allowed to run. | Yes |
 
@@ -43,8 +32,8 @@ Check the run time of the component process and fail if the time is greater than
 Verify the deployment of an application by using the HTTP interface.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Charset | String | The character encoding for the file. The default value is UTF-8. | No |
 | Fail if match found | Boolean | If selected, the process fails if a match is found. | No |
 | Password | Password | The password to use for authentication. | No |
@@ -59,8 +48,8 @@ Verify the deployment of an application by using the HTTP interface.
 Wait for a web page to become accessible and to contain specified text.
 
 
-| Name | Type | Description | Required |
-| --- | --- | --- | --- |
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
 | Fail if match found | Boolean | If selected, the process fails if a match is found. | No |
 | Maximum wait time (s) | String | The maximum number of seconds to wait for the conditions to be met. | Yes |
 | Password | Password | The password to use for authentication. | No |

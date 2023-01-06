@@ -1,14 +1,5 @@
 
-Web Utilities - Usage
-=====================
-
-# Usage
-
-
-### Usage
-
-
-
+# Web Utilities - Usage
 
 Use the **Send HTTP Call** step to specify an HTTP request and send the request to a web server. You can invoke a RESTful service against a specified URL and write the results to a file. You can use RESTful service calls to integrate with any technology that has a REST-based API.
 
@@ -24,4 +15,4 @@ To access this plug-in step in the palette, click **Utilities** > **Web Utilitie
 
 |Back to ...||Latest Version|Web Utilities ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1138530](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1138530.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[17.1148552](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/web-utilities/ucd-web-utilities-17.1148552.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|[Downloads](downloads.md)|

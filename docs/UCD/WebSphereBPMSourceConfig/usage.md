@@ -1,32 +1,18 @@
 
-IBM Business Process Manager (WebSphere BPM) - Usage
-====================================================
-
-# Usage
-
-
-### Usage
-
-
-
+# IBM Business Process Manager (WebSphere BPM) - Usage
 
 ### Summary
 
-
 The IBM WebSphere BPM source configuration plug-in for IBM UrbanCode Deploy creates component versions from Process Application snapshots originating from the Process Center. The component versions are made up of a single file called `export.twx` that contains the snapshots `.twx` file. This file is directly used in the [IBM WebSphere BPM automation plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereBPM/). Manual import and export of the Process Application snapshots artifact can be found on [IBM WebSphere BPMs knowledge center](https://www.ibm.com/support/knowledgecenter/SSFPJS_8.5.5/com.ibm.wbpm.admin.doc/topics/managing_process_applications_E.html). Specifically, this plug-in creates a file identical to the [BPMExport command](https://www.ibm.com/support/knowledgecenter/SSFTBX_8.5.7/com.ibm.wbpm.ref.doc/topics/rref_bpmexport.html). Therefore, it should be used in conjunction with the [BPMImport command](https://www.ibm.com/support/knowledgecenter/SSFTBX_8.5.7/com.ibm.wbpm.ref.doc/topics/rref_bpmimport.html) or the [Import Process Application plug-in step](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/WebSphereBPM/steps.html#import_process_application) in a component process.
-
 
 In general, we suggest using a continuous integration or build tool to push artifacts from the main tool, such as IBM WebSphere BPM, into IBM UrbanCode Deploy. However, in some scenarios this approach is cumbersome and can cause significant headache. In those instance, you use its associated source configuration plug-in to import artifacts easily. In this source configuration model, you must abide by the architecture requirement of mapping one Process Application to one IBM UrbanCode Deploy component. There are ways to get around this requirement, however, additional scripting or personalized processes will be required.
 
-
 ### Agent Model
-
 
 The IBM WebSphere BPM source configuration plug-in utilizes the REST API. This allows the IBM UrbanCode Deploy agent to be placed anywhere with network access to the Process Center that contains your Process Application snapshots. However, any agent located on the BPM server will be required to perform deployments as the automation plug-in uses the `wsadmin` command line interface.
 
 
 ### Sample Configuration
-
 
 This source configuration plug-ins base configuration contains five properties.
 
@@ -41,21 +27,21 @@ There is also one optional property on manual import.
 
 * **Snapshot Name**: Specify a single Snapshot name or acronym to import.
 
-[![](plugin-config-1.png)](plugin-config-1.png)
+[![](media/plugin-config-1.png)](media/plugin-config-1.png)
 Sample configuration IBM WebSphere BPM source config plug-in
 
 
 Many of these properties are pulled directly from the Process Application snapshots page. The picture below illustrates where to find the the URL, Process Application and snapshots names in a browser.
 
 
-[![](process-application.png)](process-application.png)
+[![](media/process-application.png)](media/process-application.png)
 Sample Application Process snapshots page
 
 
 If the above list of screenshots was imported successfully, the components versions tab may look like the below screenshot. Regardless of the snapshot value specified for the manual import, the versions name will be the Snapshots name and its acronym in parenthesis. Note in the below screenshot that two versions may first look like duplicates. However, they are actually from two different tracks, hence the different acronyms.
 
 
-[![](import-versions-1.png)](import-versions-1.png)
+[![](media/import-versions-1.png)](media/import-versions-1.png)
 Sample Component Version tab
 
 
@@ -71,11 +57,11 @@ In the IBM WebSphere BPM automation plug-in, many steps require a combination of
 On configuration, the tab should resemble the below screenshot:
 
 
-[![](version-properties.png)](version-properties.png)
+[![](media/version-properties.png)](media/version-properties.png)
 Sample Version Property Definitions
 
 
-The error explained above will manifest itself in the standard output logs as the outlined string: [![](create-props-warn.png)](create-props-warn.png)
+The error explained above will manifest itself in the standard output logs as the outlined string: [![](media/create-props-warn.png)](media/create-props-warn.png)
 
 
 |Back to ...||Latest Version|IBM Business Process Manager (WebSphere BPM) ||||

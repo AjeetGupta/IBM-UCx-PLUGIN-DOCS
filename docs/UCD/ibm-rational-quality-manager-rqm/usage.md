@@ -1,13 +1,5 @@
 
-IBM Rational Quality Manager (RQM) - Usage
-==========================================
-
-# Usage
-
-
-### Usage
-
-
+# IBM Rational Quality Manager (RQM) - Usage
 
 
 ### Example: Running tests in Rational Quality Manager
@@ -19,7 +11,7 @@ To run this process the application binary files must be in the component. Also 
 1. The Download Artifacts step retrieves the binary files.
 2. The [Execute Test Case](../steps#execute_test_case) step runs the specified test case in Rational Quality Manager.
 
-[![A component process that uses the steps in the Rational Quality Manager plug-in to run a test case in Rational Quality Manager](rationalqualitymanager_a.gif)](rationalqualitymanager_a.gif)
+[![A component process that uses the steps in the Rational Quality Manager plug-in to run a test case in Rational Quality Manager](media/rationalqualitymanager_a.gif)](media/rationalqualitymanager_a.gif)
 A component process that uses the steps in the Rational Quality Manager plug-in to run a test case in Rational Quality Manager
 
 

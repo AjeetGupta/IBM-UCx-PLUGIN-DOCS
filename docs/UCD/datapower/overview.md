@@ -1,8 +1,6 @@
 
 # IBM DataPower Configuration Manager - Overview
 
-## Overview
-
 The IBM DataPower configuration manager plug-in includes steps to work with WebSphere DataPower appliances.
 
 To add the IBM DataPower configuration manager plug-in steps to processes, click **Infrastructure > WebSphere DataPower** in the step palette of the process editor.
@@ -24,6 +22,11 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 View the [GitHub projects wiki page](https://github.com/ibm-datapower/datapower-configuration-manager/wiki) for full directions and complete tutorials on using the Datapower plugin.
 
 ### History
+
+#### Version 25
+
+* Fixed groovy3 compatibility issue
+* Property "Deployment policy object variable name" made optional as some usres face issue due to this.
 
 #### Version 24
 
@@ -112,4 +115,4 @@ Initial release of the standard version of the plug-in.
 
 |Back to ...||Latest Version|IBM DataPower Configuration Manager ||||
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[[v24.4cfd2d7](https://github.com/ibm-datapower/datapower-configuration-manager/releases/download/24/datapower-v24.4cfd2d7.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[[v25](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/datapower/datapower-v25.zip)|[Readme](README.md)|[Usage](usage.md)|[Steps](steps.md)|[Downloads](downloads.md)|

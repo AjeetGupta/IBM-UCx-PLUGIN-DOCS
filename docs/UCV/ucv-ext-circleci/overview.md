@@ -1,18 +1,16 @@
 
 # CircleCI - Overview
 
-## Overview
+The CircleCI plugin imports pipeline, workflow, and job execution data of a project from CicleCI and displays it in IBM UrbanCode Velocity. The IBM UrbanCode Velocity Pipeline displays the version of the application that was deployed to different environments. You can configure the CircleCI project as an application in an IBM UrbanCode Velocity pipeline.
 
-The CircleCI plugin synchronizes pipelines, workflows and job executions of a CicleCI project with IBM UrbanCode Velocity. The project can be configured as an application in an IBM UrbanCode Velocity pipeline and CircleCI jobs can be configured in the IBM UrbanCode Velocity pipeline. The IBM UrbanCode Velocity Pipeline displays the latest version of the application deployed to the different environments.
+## Compatibility
 
-### Compatibility
-
-The CircleCI plug-in requires IBM UrbanCode Velocity version 2.2.0 and later.
+The CircleCI plug-in requires IBM UrbanCode Velocity version 2.2.0 or later.
 
 
-### Versions
+## Versions
 
-UrbanCode Velocity plug-in images are located in DockerHub. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-circleci/tags).
+The IBM UrbanCode Velocity plug-in images are located in DockerHub. For available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-circleci/tags).
 
 ## History
 
@@ -22,7 +20,7 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 ### Version 1.0.18
 
-* reduced Whitesource vulnerabilities
+* Fixed whitesource vulnerabilities
 
 ### Version 1.0.16
 
@@ -36,4 +34,5 @@ UrbanCode Velocity plug-in images are located in DockerHub. To view available ve
 
 |Back to ...||Latest Version|CircleCI |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.22](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci-1.0.22.tar.7z.001)|[Readme](README.md)|[Overview](overview.md)|[Usage](usage.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.22](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci-1.0.22.tar.7z.001)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+
